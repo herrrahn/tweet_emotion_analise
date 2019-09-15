@@ -9,11 +9,11 @@ import java.util.List;
 @Service()
 public class TwitterReader {
 
-    private static final String CONSUMER_KEY = "1N0rNlJtT6ky932Rlf2W8bqVs";
-    private static final String CONSUMER_KEY_SECRET = "PcYLVukZlbZxe02BSpGUZiXhprTs56FI67HqEiUVIVCTzQ5ZE6";
+    private static final String CONSUMER_KEY = "YOUR KEY";
+    private static final String CONSUMER_KEY_SECRET = "YOUR KEY";
 
-    private static final String ACCESS_TOKEN = "337384343-PjW1xWNl4Ugi5iFSf7YmquoLwobc4oTQnSNtBbTk";
-    private static final String ACCESS_TOKEN_SECRET = "i7GQpSTo3XBnFhXBVzzWnTOW4wTWynmt3V0ScUlQfoeCA";
+    private static final String ACCESS_TOKEN = "YOUR KEY";
+    private static final String ACCESS_TOKEN_SECRET = "YOUR KEY";
 
     public List<Status> readTwitter(String text) throws TwitterException {
 
