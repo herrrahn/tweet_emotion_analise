@@ -16,7 +16,7 @@ public class WatsonAnalyser {
 
     public AnalysisResults analise(String tweet, String text) {
         IamOptions options = new IamOptions.Builder()
-                .apiKey("uo_rXnBXu7zuV014iOjhSLHm_5PZKI9Tl9YrxFRwZOUU")
+                .apiKey("YOUR KEY")
                 .build();
 
         NaturalLanguageUnderstanding naturalLanguageUnderstanding = new NaturalLanguageUnderstanding("2019-07-12", options);
