@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rahn</groupId>
-	<artifactId>sentiment-analyzer</artifactId>
+	<artifactId>tweet_emotion_analise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sentiment-analyzer</name>
+	<name>tweet_emotion_analise</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

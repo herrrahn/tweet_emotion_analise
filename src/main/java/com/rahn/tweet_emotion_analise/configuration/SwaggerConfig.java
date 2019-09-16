@@ -1,4 +1,4 @@
-package com.rahn.sentimentanalyzer.configuration;
+package com.rahn.tweet_emotion_analise.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

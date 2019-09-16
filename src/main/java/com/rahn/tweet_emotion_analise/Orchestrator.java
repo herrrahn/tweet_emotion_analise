@@ -1,9 +1,8 @@
-package com.rahn.sentimentanalyzer;
+package com.rahn.tweet_emotion_analise;
 
 import com.ibm.watson.natural_language_understanding.v1.model.AnalysisResults;
-import com.rahn.sentimentanalyzer.twitter.TwitterReader;
-import com.rahn.sentimentanalyzer.watson.WatsonAnalyser;
-import net.bytebuddy.implementation.bind.MethodDelegationBinder;
+import com.rahn.tweet_emotion_analise.twitter.TwitterReader;
+import com.rahn.tweet_emotion_analise.watson.WatsonAnalyser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import twitter4j.Status;

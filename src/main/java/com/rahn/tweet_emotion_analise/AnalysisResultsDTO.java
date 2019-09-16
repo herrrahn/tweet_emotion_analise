@@ -1,4 +1,4 @@
-package com.rahn.sentimentanalyzer;
+package com.rahn.tweet_emotion_analise;
 
 import com.ibm.watson.natural_language_understanding.v1.model.AnalysisResults;
 

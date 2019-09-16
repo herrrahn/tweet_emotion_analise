@@ -1,14 +1,8 @@
-package com.rahn.sentimentanalyzer;
+package com.rahn.tweet_emotion_analise;
 
-import com.ibm.watson.natural_language_understanding.v1.model.AnalysisResults;
-import com.rahn.sentimentanalyzer.twitter.TwitterReader;
-import com.rahn.sentimentanalyzer.watson.WatsonAnalyser;
 import org.springframework.web.bind.annotation.*;
-import twitter4j.Status;
-import twitter4j.TwitterException;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController()
 @CrossOrigin("*")

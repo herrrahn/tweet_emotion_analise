@@ -1,4 +1,4 @@
-package com.rahn.sentimentanalyzer.watson;
+package com.rahn.tweet_emotion_analise.watson;
 
 import com.ibm.cloud.sdk.core.service.security.IamOptions;
 import com.ibm.watson.natural_language_understanding.v1.NaturalLanguageUnderstanding;
@@ -16,7 +16,7 @@ public class WatsonAnalyser {
 
     public AnalysisResults analise(String tweet, String text) {
         IamOptions options = new IamOptions.Builder()
-                .apiKey("YOUR KEY")
+                .apiKey("uo_rXnBXu7zuV014iOjhSLHm_5PZKI9Tl9YrxFRwZOUU")
                 .build();
 
         NaturalLanguageUnderstanding naturalLanguageUnderstanding = new NaturalLanguageUnderstanding("2019-07-12", options);
